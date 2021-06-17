@@ -11,9 +11,9 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        var input= findViewById<EditText>(R.id.input)
-        var btn = findViewById<Button>(R.id.btn)
-        var txt = findViewById<TextView>(R.id.input)
+        var input= findViewById<EditText>(R.id.inputNum)
+        var btn = findViewById<Button>(R.id.btn_3)
+        var txt = findViewById<TextView>(R.id.inputNum)
 
         btn.setOnClickListener(android.view.View.OnClickListener {
             var radius:Double=input.text.toString().toDouble()

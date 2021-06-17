@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">KotlinDemo</string>
-    <string-array name ="array_colors">
+    <string-array name="array_colors">
         <item>Red</item>
         <item>Green</item>
         <item>Yellow</item>

@@ -4,37 +4,38 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity3">
 
     <EditText
         android:id="@+id/inputNum"
-        android:layout_width="403dp"
-        android:layout_height="51dp"
-        android:layout_marginStart="5dp"
-        android:layout_marginTop="218dp"
+        android:layout_width="369dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="168dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Enter Radius"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/btn_3"
-        android:layout_width="144dp"
-        android:layout_height="47dp"
-        android:layout_marginStart="150dp"
-        android:layout_marginTop="323dp"
-        android:text="Calculate"
+        android:layout_width="155dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="128dp"
+        android:layout_marginTop="272dp"
+        android:text="Click"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/txt_3"
-        android:layout_width="368dp"
-        android:layout_height="37dp"
-        android:layout_marginStart="22dp"
-        android:layout_marginTop="424dp"
-        android:text="Result"
+        android:layout_width="333dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="372dp"
+        android:background="#81C6E4"
+        android:backgroundTint="#95C6ED"
+        android:textSize="16sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
